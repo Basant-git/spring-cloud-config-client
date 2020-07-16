@@ -1,0 +1,11 @@
+my:
+   greeting: hello world
+   name: Baba
+spring.cloud.config.uri: http://localhost:8888
+server.port: 8090
+
+#property file name
+spring.application.name: spring-cloud-config-client
+
+#Enable Refresh Scope
+management.endpoints.web.exposure.include: "*"
